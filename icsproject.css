@@ -6,6 +6,35 @@ body {
 
 /** Header styles **/
 
+
+.links {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cow {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.pig {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.chicken {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.sheep {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
 .header {
   background-image: url(http://www.freedomfarmspa.com/assets/img/bg/sky.jpg);
   height: 700px;
@@ -41,7 +70,7 @@ ul {
 }
 
 li {
-  border-bottom: 10px solid #F7F56F;
+  border-bottom: 2px solid #F7F56F;
   list-style: none;
   margin: 100px 0px;
   padding-bottom: 60px;
@@ -55,7 +84,7 @@ p {
   font-weight: 100;
 }
 
-a {
+.info {
   color: #214E34;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
@@ -65,3 +94,28 @@ a {
   text-decoration: none;
   letter-spacing: 2px;
 }
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color: #F5E93D;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color: #F5E93D;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  font-weight:      bold;
+  color:            white;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  underline;
+  font-weight:      bold;
+  color: white;
+  } 
